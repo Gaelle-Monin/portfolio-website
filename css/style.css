@@ -70,13 +70,16 @@ a:hover {
   border-bottom: 2px solid #BFCDD9; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
-.button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
+.button:visited {
+  color: #ffffff
 }
 .button:active {
   background-color: #94465D;
   border-bottom: 2px solid #C37F93; /* width of the border, type, color */
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
 }
 .button.contact {
   background-color: transparent;
