@@ -85,4 +85,9 @@ a:hover {
 .button.contact:hover {
   background-color: #BFCDD9;
   color: #ffffff;
+  border: 2px solid #BFCDD9;
+}
+.button.contact:active {
+  background-color: #51608C;
+  color: #ffffff;
 }
