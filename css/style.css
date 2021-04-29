@@ -64,6 +64,7 @@ a:hover {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #51608C;
   color: #ffffff; /* needed to override the default link color */
+  font-size: 12px;
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
