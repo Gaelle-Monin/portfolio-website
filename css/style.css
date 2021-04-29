@@ -3,6 +3,7 @@ Colors used:
 Primary Color (Dark Blue): #51608C;
 Secondary Color (Light Blue): #BFCDD9;
 Accent (Red): #94465D;
+Accent (Pink): #C37F93
 */
 
 body {
@@ -66,7 +67,7 @@ a:hover {
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #94465D; /* width of the border, type, color */
+  border-bottom: 2px solid #BFCDD9; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
@@ -75,6 +76,7 @@ a:hover {
 }
 .button:active {
   background-color: #94465D;
+  border-bottom: 2px solid #C37F93; /* width of the border, type, color */
 }
 .button.contact {
   background-color: transparent;
