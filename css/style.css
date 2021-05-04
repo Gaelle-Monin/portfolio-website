@@ -154,10 +154,11 @@ nav > ul > li > a:hover {
   color: #ffffff;
 }
 #hero {
+  background-color: #BFCDD9;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 main {
-  padding-top: 133px;
+  padding-top: 204px;
 }
