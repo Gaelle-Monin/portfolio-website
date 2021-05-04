@@ -116,7 +116,14 @@ a:hover {
 header {
   text-align: center;
   padding: 10px 0;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 6px 6px 20px 0px rgba(81, 96, 140, 0.13);
+-moz-box-shadow:    6px 6px 20px 0px rgba(81, 96, 140, 0.13);
+box-shadow:         6px 6px 20px 0px rgba(81, 96, 140, 0.13);
 }
+
 nav > ul {
   display: inline-block;
   width: 100%
@@ -141,7 +148,11 @@ nav > ul > li > a:active {
 nav > ul > li > a:hover {
   color: #BFCDD9;
 }
-#hero h1 {
-  margin: 0;
-  padding: 0.67em 0;
+#hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main {
+  padding-top: 133px;
 }
