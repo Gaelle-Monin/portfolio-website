@@ -108,6 +108,11 @@ a:hover {
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
+.logo {
+  max-width: 250px;
+}
+
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 
 #hero h1 {
@@ -137,10 +142,10 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #51608C;
+  color: #94465D;
 }
 nav > ul > li > a:visited {
-  color: #94465D;
+  color: #51608C;
 }
 nav > ul > li > a:active {
   color: #C37F93;
