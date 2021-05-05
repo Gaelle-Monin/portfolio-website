@@ -162,3 +162,6 @@ nav > ul > li > a:hover {
 main {
   padding-top: 196px;
 }
+.profile-picture img{
+  max-width: 300px;
+}
