@@ -262,3 +262,9 @@ X-large devices (1440px or larger)
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #BFCDD9;
+  width: 100%;
+}
