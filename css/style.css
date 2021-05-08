@@ -275,9 +275,14 @@ footer {
   width: 100%;
   text-align: center;
 }
-#social {
+social {
   background-color: #BFCDD9;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  align: center;
+}
+social > ul {
+  list-style-type: none;
+  padding: 0;
 }
