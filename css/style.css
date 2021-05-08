@@ -268,3 +268,16 @@ footer {
   background-color: #BFCDD9;
   width: 100%;
 }
+#hero-about {
+  background-color: #FFFFFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#social {
+  background-color: #BFCDD9;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
