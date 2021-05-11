@@ -282,3 +282,10 @@ ul.social {
 ul.social li {
     display: inline-block;
 }
+.social-icon {
+  font-size: 48px;
+  color:black;
+}
+#thank {
+  text-align: center;
+}
