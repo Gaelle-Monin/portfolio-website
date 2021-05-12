@@ -163,6 +163,12 @@ main {
 .profile-picture img{
   max-width: 300px;
 }
+.navigation {
+  list-style-type: none;
+}
+#myNavtoggle {
+  list-style-type: none;
+}
 
 /* ==============================
 Medium devices (640px and larger)
