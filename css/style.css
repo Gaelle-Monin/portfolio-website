@@ -166,8 +166,17 @@ main {
 .navigation {
   list-style-type: none;
 }
-#myNavtoggle {
-  list-style-type: none;
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 /* ==============================
@@ -222,7 +231,12 @@ Medium devices (640px and larger)
 nav > ul > li {
   display: inline-block;
 }
-
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
 }
 /* ==============================
 Large devices (1024px or larger)
