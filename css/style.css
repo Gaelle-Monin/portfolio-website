@@ -163,9 +163,7 @@ main {
 .profile-picture img{
   max-width: 300px;
 }
-.navtoggle li:not(:last-child) {
-  display: none;
-}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -214,23 +212,9 @@ Medium devices (640px and larger)
 #about-page h4 {
   margin-top: 0;
 }
-.logo {
-min-width: 150px;
-}
-.navtoggle li:not(:last-child) {
+
+nav > ul > li {
   display: inline-block;
-}
-.navtoggle li:last-child {
-  display: none;
-}
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
 }
 
 }
