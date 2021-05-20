@@ -327,7 +327,10 @@ ul.social li {
 .social-icon {
   font-size: 48px;
   color:black;
+  padding-left: 12px;
+  padding-right: 12px;
 }
+
 #thank {
   text-align: center;
 }
