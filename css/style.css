@@ -280,30 +280,104 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
 }
 
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
-.sun {
-  animation: 4s color-change infinite alternate linear;
+#illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
 
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
+        .responsive {
+          width: 100%;
+          height: auto;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            color: #164676;
+            margin-bottom: 0.2em;
+            font-size: 32px;
+        }
+
+        p.subtitle {
+            font-size: 1em;
+            color: #858585;
+            margin: 0.3;
+        }
+
+        @media (min-width: 768px) {
+            #home-container {
+                grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+                grid-template-rows: 1fr;
+            }
+            #inner {
+                grid-column: 2;
+                grid-row: 1;
+            }
+
+            #illustration {
+                grid-column: 3;
+                grid-row: 1;
+            }
+
+            #heading {
+                font-size: 100px;
+            }
+
+            p.subtitle {
+                font-size: 42px;
+            }
+        }
+
+
+        .eye {
+          -webkit-animation: blink-1 0.6s 3s 1 both;
+  	              animation: blink-1 0.6s 3s 1 both;
+          }
+
+          @-webkit-keyframes blink-1 {
+            0%,
+            50%,
+            100% {
+              opacity: 1;
+            }
+            25%,
+            75% {
+              opacity: 0;
+            }
+          }
+          @keyframes blink-1 {
+            0%,
+            50%,
+            100% {
+              opacity: 1;
+            }
+            25%,
+            75% {
+              opacity: 0;
+            }
+          }
+
+
+     #timothy {
+          animation-name: sink;
+          animation-duration: 6s;
+          animation-delay: 3s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: ease-in;
+      }
+
+      @keyframes sink {
+          from {
+              transform: translate(0px, 0px);
+           }
+           to {
+              transform: translate(0px, 400px);
+           }
+      }
+
+
 footer {
   text-align: center;
   padding: 10px 0;
